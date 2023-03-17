@@ -3,3 +3,4 @@ FROM amazoncorretto:17
 #COPY ${JAR_FILE} app.jar
 COPY demo.jar app.jar
 ENTRYPOINT ["java", "-jar", "/app.jar"]
+
